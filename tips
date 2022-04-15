@@ -1,0 +1,40 @@
+-------------------------------------------COMENTÁRIOS------------------------------------------------------------------
+# This is a comment for only one line
+
+"""
+User for
+a lot of
+lines comments
+:)
+"""
+-----------------------------------------------EXEMPLOS----------------------------------------------------------------
+types of print and results
+print(12345) = 12345
+print('Camila', 'Souza') = Camila Souza
+print('Camila', 'Souza', sep='-') = Camila-Souza
+print('Camila', 'Souza', sep='-', end='##') = Camila-Souza##
+print('824', '123', '789', sep='.', end='-')
+print('18') = 824.123.789-18
+
+print('Camila', type('Camila'))
+print(21, type(21))
+print(21.21, type(21.21))
+print(21 > 20, bool(21 > 20))
+
+
+nome = 'Camila'
+idade = 21
+tamanho = 1.60
+
+imc = peso * tamanho
+
+print(f'{nome} tem {idade} anos e seu IMC é de {imc:.1f}')
+----------------------------------------OPERADORES LÓGICOS--------------------------------------------------------------
+Operadores lógicos - aula 4
+and, or, not
+in e not in
+
+----------------------------------------LINK DOCUMENTAÇÃO --------------------------------------------------------------
+https://docs.python.org/3/library/  ////Documentation
+https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str  ///// Text Sequence Type
+https://docs.python.org/3/library/functions.html  ///built-in
