@@ -30,6 +30,6 @@ while True:
 
     if letra not in secret and chances > 0:
         chances -= 1
-        print(f'You still have {chances}')
+        print(f'You still have {chanc s}')
     else:
         print('No more chances, sorry :(')
